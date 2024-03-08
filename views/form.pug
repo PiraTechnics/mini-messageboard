@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Enter a new message
+
+  div.form-block
+    form(action="/new", method="post")
+      div.form-group
+        label(for='name') Name:
+        input#name.form-control(type='text', placeholder='name' name='name')
+      div.form-group
+        label(for='message') Message:
+        textarea#message.form-control(placeholder='message' name='message', rows='5')
+      button.btn.btn-primary(type="submit", name="submit") Submit

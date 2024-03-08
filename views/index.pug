@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  each val in messages
+    div.message
+      p.messagetext "#{val.text}"
+      p.userstamp from #{val.user}
+      p.timestamp added #{val.added}
+

@@ -1,0 +1,46 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.menu {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.message {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 4px 12px;
+  margin: 12px 0px;
+}
+
+.messagetext {
+  font-size: 1.2rem;
+}
+
+.userstamp {
+  font-style: italic;
+}
+
+.timestamp {
+  color: gray;
+}
+
+.form-block {
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 12px;
+  max-width: 300px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0px;
+}
